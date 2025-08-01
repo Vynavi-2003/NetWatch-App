@@ -3,16 +3,24 @@ A web-based dashboard built with Flask that scans your local network to display 
 
 ## 🚀 Features
 🌐 Scans your local network using arp -a
+
 🖥 Displays IP, MAC, Hostname, Vendor & Timestamp
+
 🔄 Live refresh via /refresh API
+
 ⬇️ Export connected devices as .csv
+
 🌗 Light/Dark mode responsive styling
+
 🧪 Vendor detection via MAC Vendors API
 
 ## 🛠 Tech Stack
 Backend: Python, Flask
+
 Frontend: HTML, Bootstrap 5, JavaScript
+
 Styling: Custom CSS with dark mode support
+
 APIs: macvendors.com
 
 ## 📂 Project Structure
@@ -28,7 +36,9 @@ project/
 ```
 ### ✅ Requirements
 Python 3.8+
+
 arp command must be available (works natively on Linux/macOS/Windows)
+
 Internet access for MAC vendor API
 
 Install dependencies:
